@@ -1,0 +1,16 @@
+num1 =int(input("enter first number:"))
+num2 =int(input("enter second number:"))
+
+# operators
+addition = num1 + num2
+substraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+modules = num1 % num2
+
+print("\nResults:")
+print(f"{num1} + {num2} = {addition} ")
+print(f"{num1} - {num2} = {substraction} ")
+print(f"{num1} * {num2} = {multiplication} ")
+print(f"{num1} / {num2} = {division} ")
+print(f"{num1} % {num2} = {modules} ")
